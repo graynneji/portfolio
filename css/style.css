@@ -227,6 +227,9 @@ border-bottom: 1px solid #fff;
   height: 2.4rem;
   cursor: pointer;
 }
+.hidden{
+  display: hidden;
+}
 .contacts{
   display: flex;
   flex-direction: column;
@@ -237,6 +240,10 @@ border-bottom: 1px solid #fff;
   opacity: 1;
 
   border-radius: 5px;
+
+
+}
+.contact-menu{
 
 }
 .project-header{

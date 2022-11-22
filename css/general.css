@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "roboto", sans-serif;
+  background-color: #343a40;
+  color: #fff;
+  letter-spacing: -0.025rem;
+}
+.container {
+  max-width: 120rem;
+  /* padding: 0.5rem 0; */
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  position: relative;
+}
+
+.grid {
+}
+.grid-col-2 {
+}
+.marginsmall-buttom-hp {
+  margin-bottom: 4.4rem;
+}
+.margin-button---hp {
+  margin-bottom: 2rem;
+}
+.margin-buttom-hp {
+  margin-bottom: 13.5rem;
+}

@@ -176,7 +176,7 @@ export default function Portfolio() {
 
                         {/* Mobile Menu Button */}
                         <button
-                            className="md:hidden text-gray-300"
+                            className="md:hidden cursor-pointer text-gray-300"
                             onClick={() => setIsMenuOpen(!isMenuOpen)}
                         >
                             {isMenuOpen ? <X size={24} /> : <Menu size={24} />}

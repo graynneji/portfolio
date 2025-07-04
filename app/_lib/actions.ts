@@ -2,8 +2,7 @@
 "use server";
 
 import { Resend } from "resend";
-
-const resend = new Resend(process.env.RESEND_API_KEY);
+const resend = new Resend(process.env.NEXT_PUBLIC_RESEND_API_KEY);
 
 export async function sendContactEmail(formData: FormData) {
   const name = formData.get("name");
@@ -12,7 +11,7 @@ export async function sendContactEmail(formData: FormData) {
 
   try {
     await resend.emails.send({
-      from: `${name} <${email}>`,
+      from: `${name} <noreply@resend.dev>`,
       to: process.env.NEXT_PUBLIC_RECEIVER_EMAIL as string,
       subject: "New Contact Us Message",
       text: `You received a new message:\n\nFrom: ${name} (${email})\n\n${message}`,

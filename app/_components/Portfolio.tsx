@@ -103,19 +103,19 @@ export default function Portfolio() {
         },
         {
             id: 2,
-            title: "Rental App Admin",
+            title: "Wild Oasis Admin",
             description: "Comprehensive dashboard for property managers with analytics, booking management and tenant tracking",
-            tags: ["react", "supabase", "maps"],
+            tags: ["react", "supabase", "maps", "Charts"],
             image: "/tricia-kissi.png",
-            link: "#"
+            link: "https://wild-oasis-chi-indol.vercel.app"
         },
         {
             id: 3,
-            title: "Rental App Client",
+            title: "Wild Oasis Client",
             description: "User-friendly rental search platform with virtual tours, instant booking and payment processing",
             tags: ["nextjs", "api", "maps", "supabase"],
             image: "/eleganteshop.png",
-            link: "#"
+            link: "https://rental-website-nextjs.vercel.app/"
         },
         {
             id: 4,

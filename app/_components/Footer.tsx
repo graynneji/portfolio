@@ -52,15 +52,15 @@ export default function Footer() {
                         <ul className="space-y-2 text-gray-400">
                             <li className="flex items-center">
                                 <Mail size={16} className="mr-2" />
-                                <span>contact@example.com</span>
+                                <span>graynneji405@gmail.com</span>
                             </li>
                             <li className="flex items-center">
                                 <Phone size={16} className="mr-2" />
-                                <span>+1 (555) 123-4567</span>
+                                <span>+234 7031362034</span>
                             </li>
                             <li className="flex items-center">
                                 <MapPin size={16} className="mr-2" />
-                                <span>San Francisco, CA</span>
+                                <span>Lekki, Lagos</span>
                             </li>
                         </ul>
                     </div>

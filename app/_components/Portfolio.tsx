@@ -103,6 +103,14 @@ export default function Portfolio() {
         },
         {
             id: 2,
+            title: "BossBlock Telegram Mini App - AI Powered",
+            description: "A gamified Telegram Mini App by InfoFi Studio that combines AI intelligence with strategic gaming. BossBlock delivers real-time insights, adaptive challenges, and immersive gameplay—all within Telegram.",
+            tags: ["telegram api", "AI", "gaming", "strategy", "infotech", "golang", "react"],
+            image: "/BossBlock.png",
+            link: "https://t.me/BossBlock_Bot"
+        },
+        {
+            id: 3,
             title: "Soullve Mental Health Chat App",
             description: "Secure mental health platform connecting users with therapists through real-time chat and scheduling",
             tags: ["nextjs", "supabase", "redis", "api", "rabbitMQ"],
@@ -110,7 +118,7 @@ export default function Portfolio() {
             link: "https://soullvelte.vercel.app/"
         },
         {
-            id: 3,
+            id: 4,
             title: "Wild Oasis Admin",
             description: "Comprehensive dashboard for property managers with analytics, booking management and tenant tracking",
             tags: ["react", "supabase", "maps", "Charts"],
@@ -118,7 +126,7 @@ export default function Portfolio() {
             link: "https://wild-oasis-chi-indol.vercel.app"
         },
         {
-            id: 4,
+            id: 5,
             title: "Wild Oasis Client",
             description: "User-friendly rental search platform with virtual tours, instant booking and payment processing",
             tags: ["nextjs", "api", "maps", "supabase"],
@@ -126,7 +134,7 @@ export default function Portfolio() {
             link: "https://rental-website-nextjs.vercel.app/"
         },
         {
-            id: 5,
+            id: 6,
             title: "Betterspace",
             description: "Real-time enterprise mental health platform with integrated messaging and automated scheduling system",
             tags: ["react native", "nextjs", "css module", "api", "rabbitMQ", "tailwindCss", "redis"],

@@ -104,7 +104,7 @@ export default function Portfolio() {
         {
             id: 2,
             title: "BossBlock Telegram Mini App - AI Powered",
-            description: "A gamified Telegram Mini App by InfoFi Studio that combines AI intelligence with strategic gaming. BossBlock delivers real-time insights, adaptive challenges, and immersive gameplay—all within Telegram.",
+            description: "A gamified Telegram Mini App by InfoFi Studio that combines AI intelligence with strategic gaming.",
             tags: ["telegram api", "AI", "gaming", "strategy", "infotech", "golang", "react"],
             image: "/BossBlock.png",
             link: "https://t.me/BossBlock_Bot"
